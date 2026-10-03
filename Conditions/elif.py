@@ -1,20 +1,10 @@
-num = 2
-num = 165
+marks = int(input("Enter your marks: "))
 
-if num == 1:
-    print("one")
-
-elif num == 2:
-    print("two")
-
-elif num == 3:
-    print("three")
-
-elif num == 4:    
-    print("four")
-
-elif num == 5:    
-    print("five")
-
+if(marks >=90):
+    print("Grade A")
+elif(marks >=80):
+    print("Grade B")
+elif(marks >=70):
+    print("Grade C")
 else:
-    print("number is not matching....")
+    print("Grade D")
